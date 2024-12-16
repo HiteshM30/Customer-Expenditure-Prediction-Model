@@ -77,12 +77,11 @@ Testing MAE: 7.103600193221979
 ```
 # File Structure
 ```
-├── data/
-│   └── Ecommerce Customers.csv   # Input dataset
-├── models/
-│   └── model.pkl                 # Trained model
-├── notebooks/
-│   └── EDA.ipynb                 # Exploratory Data Analysis
+├── Ecommerce Customers.csv       # Input dataset
+├── model.pkl                     # Trained model
+├── model.py                      # Model training file
+├── app.py                        # FLask API app
+├── Project.ipynb                 # EDA notebook
 ├── requirements.txt              # List of dependencies
 └── README.md                     # Project documentation
 ```

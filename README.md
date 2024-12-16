@@ -22,8 +22,8 @@ Evaluation Metrics: RMSE (Root Mean Square Error), MAE (Mean Absolute Error), MS
 
 # How to Run the Model
 To run this project, ensure you have the following prerequisites installed:
-
 Prerequisites:
+```
 Python 3.x
 Required libraries:
 pandas
@@ -31,19 +31,22 @@ numpy
 scikit-learn
 matplotlib
 seaborn
+```
 Steps:
 Clone the repository:
 
 bash
 Copy code
+```
 git clone <repository_url>
 cd <repository_directory>
+```
 Install the required dependencies:
-
 bash
 Copy code
+```
 pip install -r requirements.txt
-
+```
 # Prepare the dataset:
 
 Place your dataset in the data/ folder.
@@ -66,13 +69,14 @@ RMSE (Root Mean Square Error): Measures the difference between actual spending a
 MSE (Mean Squared Error): Indicates how well the independent variables explain the variability in spending behavior.
 MAE (Mean Absolute Error): Average absolute difference between the predicted and actual spending amounts.
 Results:
+```
 Training RMSE: 10.360075336805268
 Testing RMSE: 8.832497852574932
 Training MAE: 8.215875866653251
 Testing MAE: 7.103600193221979
-
+```
 # File Structure
-
+```
 ├── data/
 │   └── Ecommerce Customers.csv   # Input dataset
 ├── models/
@@ -81,7 +85,7 @@ Testing MAE: 7.103600193221979
 │   └── EDA.ipynb                 # Exploratory Data Analysis
 ├── requirements.txt              # List of dependencies
 └── README.md                     # Project documentation
-
+```
 # Contact
 For any questions or support, please reach out to:
 
